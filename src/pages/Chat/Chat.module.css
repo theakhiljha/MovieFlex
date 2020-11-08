@@ -1,0 +1,62 @@
+.container {
+  background-color: #b3c0cb;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  flex-direction: column;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.container .cross {
+  grid-column: 2/3;
+  color: #fff;
+  margin: 1rem;
+  cursor: pointer;
+  justify-self: right;
+}
+
+.cross span {
+  font-size: 2.5rem;
+}
+
+.content {
+  grid-column: 2/3;
+  height: 80vh;
+  background-color: #fff;
+  border-radius: 1rem;
+  display: flex;
+  padding: 3rem;
+  overflow-y: scroll;
+  flex-direction: column;
+  margin-bottom: 5rem;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+}
+
+.form {
+  width: 100%;
+}
+
+.askform {
+  width: 100%;
+}
+
+@media (max-width: 940px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .container .cross {
+    grid-column: 1/-1;
+  }
+  .content {
+    height: 90vh;
+    grid-column: 1/-1;
+    margin: 0 1rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .content .title {
+    font-size: 1.5rem;
+  }
+}

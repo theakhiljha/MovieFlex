@@ -1,0 +1,15 @@
+{
+	"short_name": "Movietrova",
+	"name": "Movietrova",
+	"icons": [
+		{
+			"src": "/img/logo.png",
+			"type": "image/png",
+			"sizes": "1024x1024"
+		}
+	],
+	"start_url": ".",
+	"display": "standalone",
+	"theme_color": "#196db6",
+	"background_color": "#ecf5f9"
+}
