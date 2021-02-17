@@ -14,13 +14,13 @@
 }
 
 .pageTitle {
-    color: #196db6;
+    color: #ffffff;
     font-weight: 700;
     font-size: 1.7rem;
 }
 
 .pageDiscription {
-    color: #505A64;
+    color: #ffffff;
     font-size: 1.2rem;
     margin: 1.1rem 0;
     padding: 0 2rem;
@@ -28,7 +28,7 @@
 }
 
 .about {
-    color: #505A64;
+    color: #ffffff;
     font-size: 1.3rem;
     margin: 2rem 0;
     grid-column: 2/3;
