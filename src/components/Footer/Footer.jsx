@@ -17,7 +17,7 @@ const Footer = () => {
       </div>
       <span className={styles.credit}>
         Built with <span className="material-icons">favorite</span> by
-        Group-BT5106
+        Group-BT6106
       </span>
       <span className={styles.credit}>
         <p>
