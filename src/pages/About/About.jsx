@@ -17,7 +17,7 @@ const About = (props) => {
           <br />
           <strong>Minor Project</strong> for Semester - <b>V</b>
           <br />
-          <b>Group</b> - BT5106
+          <b>Group</b> - BT6106
           <br />
           <br />
           <h1>Team Members:</h1>
