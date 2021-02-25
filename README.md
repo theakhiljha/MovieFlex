@@ -1,3 +1,4 @@
+# MovieFlex
 MovieFlex aims to provide a better and faster solution for users who love watching movies of different genres. In the day to day life full of hectic schedule everyone needs a platform where they can easily search for movies, ask for a recommendation from other movie lovers, check details like Genre, Language, Total Rating, Release Year, Parental Guide, and check Similar Movies.
 
 # Environment
@@ -56,5 +57,4 @@ How Live Chat Room Feature Is Working?
 2. Open the command prompt from your project directory and run the command `npm install && npm start`.
 3. Go to your browser and type `http://127.0.0.1:3000/` in the address bar.
 4. Hurray! That's it.
-# MovieFlex
 
